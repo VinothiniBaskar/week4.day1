@@ -29,7 +29,7 @@ public class Html {
 		List<WebElement> noOfColumns = driver.findElements(By.xpath("//table[@class='attributes-list']//tr//td"));
         //Get the size of the Columns
 		int columnsSize = noOfColumns.size();
-		System.out.println("The Number of Rows in the Table is :" + columnsSize);
+		System.out.println("The Number of Columns  in the Table is :" + columnsSize);
 		
 		//Get the data of fourth row of 3rd data
 		WebElement data = driver.findElement(By.xpath("//table[@class='attributes-list']//tr[4]//td[3]"));
